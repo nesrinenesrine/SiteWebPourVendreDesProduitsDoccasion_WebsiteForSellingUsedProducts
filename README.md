@@ -14,7 +14,3 @@ This is a website for selling used products. The project is developed with PHP, 
 1. **Download and Install XAMPP:**
    - Download XAMPP from [Apache Friends](https://www.apachefriends.org/index.html).
    - Install XAMPP on your machine.
-
-2. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
