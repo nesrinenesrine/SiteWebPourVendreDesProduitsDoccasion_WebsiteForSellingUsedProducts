@@ -1,0 +1,136 @@
+body {
+    background-color: rgba(228, 226, 226, 0.493);
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+button {
+    border:none ;
+    outline: none; /**/
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 120px;
+    margin-right: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+} 
+
+.les_produits{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+   }
+  .le_produit{
+    margin: 10px 10px ;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+ 
+.image{
+  border:none;
+  border-radius: 5px;
+  margin:15px 60px;
+}
+
+.info{
+  margin:0 30px;  
+  font-size: 16px;
+  font-family:Georgia;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover{
+  color:blue;
+}
+
+.liste  {
+  float: right;
+  list-style: none;
+  }
+  
+  .liste li{
+  display: inline-block;
+  }
+  
+  .liste li a{
+  color :white;
+  text-decoration:none ;
+  padding: 5px 20px;
+  margin : 20px;
+  font-size: 18px;
+  }
+  .liste li a:hover{
+  background: #fff;
+  color: #333;
+  }
+  
+  .main{
+  width: 100%;
+  background-color:rgba(211, 211, 211, 0.322);
+  display: inline-block;
+  }
+  .navbar{
+  width :100%;
+  height :40px;
+  padding: 5px 5px;
+  }
+.logo{
+  color :rgb(255, 166, 0);
+  font-size: 35px;
+  font-family: Arial;
+  padding: 10px 10px;
+  margin-left: 60px;
+  float: left;
+}
+.imglogo{
+  position: absolute;
+  top: 10px;
+}
+/**************/
+.categories{
+  display: none; /*masquer la liste */
+}
+
+.liste ul li:hover .categories{
+  display: block;   /*afficher la liste en bloc quand la souris sur le boutton catégories*/
+  position: absolute ;
+  background:rgba(255, 166, 0, 0.473);
+  border-radius: 5px;
+  width:160px;
+  margin-top:5px;
+  padding: 2px;
+}
+
+.liste ul li:hover .categories ul li{
+   margin: 0px -20px;
+   padding: 3px;
+
+}
+
+.b{
+  border-radius: 0;
+  border:1px solid white ;
+  background: transparent; 
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+} 
+.b:hover{
+  background-color:white;
+  color: black;
+  font-size: 16px;
+  padding: 6px;
+  opacity: 1;
+  
+}
+
+
+
+
+
+

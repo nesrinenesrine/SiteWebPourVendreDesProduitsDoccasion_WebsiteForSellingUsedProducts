@@ -1,0 +1,212 @@
+ body {
+    background-color: rgba(228, 226, 226, 0.493);
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    font-family: 'Lilita One', cursive ;
+  }
+ /* le nom de l'utulisateur */
+ .nom_prenom{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    margin-left: 20px;
+ } 
+
+ button {
+    border:none ;
+    outline: none; /**/
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 120px;
+    margin-right: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+  } 
+  /* le boutton devient clair quand la souris est sur le boutton */
+  button:hover {
+    opacity: 0.7;
+  } 
+  /*modification sur les icons   */
+  .button__icon_trash ,.button__icon_modification ,.button__icon_cart{
+    display: inline-flex;
+    padding: 0 2px;
+  }
+  /*les bouttons supprimer modifier vendu */
+  .button__pub {
+     color:rgb(255, 166, 0);
+     background-color:white;
+  }
+  /*lien de publier produit*/
+  .publie_produit a:link , a:visited {
+      background-color:rgb(255, 166, 0);
+      color: white;
+      padding: 8px;
+      text-align: center;
+      text-decoration: none;
+      border:none;
+      border-radius:5px ;
+      display: inline-block;
+      position: relative;
+      top: 10px;
+      cursor: pointer;
+      width: 160px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 18px;
+    }
+    
+  .publie_produit  a:active {
+      background-color: rgb(214, 141, 5);
+    }
+    .publie_produit  a:hover {
+      opacity: 0.7;
+    }
+ /*boutton modifier les informations du profil*/   
+  .button__modp{
+    background-color:rgb(255, 166, 0);
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    width: 160px;
+    margin-right:100px ;
+    position: relative;
+  }
+  /* les bouttons de : publier produit ET modifier profil*/
+  .deux_btn{
+    display: inline-flex;
+    padding: 5px;
+    align-items: center;
+    margin: 10px 70px;
+  }
+
+  /* la publication des produits */
+   .les_produits{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+  .le_produit{
+    margin: 10px 10px ;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+ 
+/*la photo de produit*/
+.image{
+  border:none;
+  border-radius: 5px;
+  margin:20px 60px;
+}
+/*les informations de la publication */
+.info{
+  margin:0 30px; 
+  font-size: 16px;
+  font-family:Georgia;
+
+}
+/*la barre de navigation */
+.main{
+  width: 100%;
+  background-color:rgba(211, 211, 211, 0.322);
+  display: inline-block;
+}
+.navbar{
+  width :100%;
+  height :40px;
+  padding: 5px 5px;
+}
+/* la liste de navigation  barre : home profil catégorie*/
+.liste  {
+  float: right;
+  list-style: none;
+}
+
+.liste li{
+  display: inline-block;
+}
+
+.liste li a{
+  color :white;
+  text-decoration:none ;
+  padding: 5px 20px;
+  margin : 20px;
+  font-size: 18px;
+}
+.liste li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+/* le logo AHL*/
+.logo{
+  color :rgb(255, 166, 0);
+  font-size: 35px;
+  font-family: Arial;
+  padding: 10px 10px;
+  margin-left: 60px;
+  float: left;
+}
+/*image de logo */
+.imglogo{
+  position: absolute;
+  top: 10px;
+}
+/* logout */
+.button__icon_logout{
+  display: inline-flex;
+  padding: 0 12px;
+  color: rgb(255, 166, 0);
+  position:absolute;
+  left: 255px;
+  top: 105px;
+}
+
+/* message  de suppression + boutton "oui" et "non" */
+.supprimer{
+  color: red;
+  text-align:center;
+}
+.supprimer button:hover{
+  color:red;
+}
+/* la liste de boutton Catégorie dans la barre de navigation  */
+
+.categories{
+  display: none; /*masquer la liste */
+}
+
+.liste ul li:hover .categories{
+  display: block;   /*afficher la liste en bloc quand la souris sur le boutton catégories*/
+  position: absolute ;
+  background:rgba(255, 166, 0, 0.473);
+  border-radius: 5px;
+  width:160px;
+  margin-top:5px;
+  padding: 2px;
+}
+
+.liste ul li:hover .categories ul li{
+   margin: 0px -20px;
+   padding: 3px;
+
+}
+
+.b{
+  border-radius: 0;
+  border:1px solid white ;
+  background: transparent; 
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+} 
+.b:hover{
+  background-color:white;
+  color: black;
+  font-size: 16px;
+  padding: 6px;
+  opacity: 1;
+  
+}
